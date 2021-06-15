@@ -48,24 +48,21 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Geografie</a>
           </li>
-          <li class="nav-item dropdown bg-danger">
-            <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Otestujte si znalosti</a>
-            <div class="dropdown-menu" aria-labelledby="dropdownId">
-              <a class="dropdown-item" href="#">Historický kvíz</a>
-              <a class="dropdown-item" href="#">Interaktivní mapa</a>
-            </div>
-          </li>
         </ul>
       </div>
     </nav>
   </header>
   <main>
     <div id="map">
+      <p class="alert alert-success">
+        <input type="checkbox" id="kraje"  checked data-toggle="toggle" data-onstyle="success"> Kraje
+        <input type="checkbox" id="mesta"  data-toggle="toggle" data-onstyle="success"> Města
+        <input type="checkbox" id="pamatky" data-toggle="toggle" data-onstyle="success"> Památky
+      </p>
       <svg
       baseprofile="tiny"
       fill="#7c7c7c"
-      height="1195"
+      height="1000"
       stroke="#ffffff"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -316,7 +313,127 @@
         cx="437.3"
         cy="870.9"
         id="2" />
+        <ellipse
+          style="fill:#ff0000;fill-rule:evenodd"
+          id="bogota"
+          cx="520.5"
+          cy="596.90002"
+          rx="15.08113"
+          ry="13.644832">
+          <title
+            id="title173">bogota</title>
+        </ellipse>
+        <ellipse
+          style="fill:#ff0000;fill-rule:evenodd"
+          id="medelin"
+          cx="413.65381"
+          cy="488.34134"
+          rx="15.08113"
+          ry="13.644832">
+          <title
+            id="title175">medelin</title>
+        </ellipse>
+        <ellipse
+          style="fill:#ff0000;fill-rule:evenodd"
+          id="barranquilla"
+          cx="469.10001"
+          cy="167.5"
+          rx="15.08113"
+          ry="13.644832">
+          <title
+            id="title207">barranquilla</title>
+        </ellipse>
+        <ellipse
+          style="fill:#ff0000;fill-rule:evenodd"
+          id="bucaramanga"
+          cx="578.17883"
+          cy="428.84506"
+          rx="15.08113"
+          ry="13.644832">
+          <title
+            id="title243">bucaramanga</title>
+        </ellipse>
+        <ellipse
+          style="fill:#ff0000;fill-rule:evenodd"
+          id="cucuta"
+          cx="624"
+          cy="381.5"
+          rx="15.08113"
+          ry="13.644832">
+          <title
+            id="title241">cucuta</title>
+        </ellipse>
+        <ellipse
+          style="fill:#ff0000;fill-rule:evenodd"
+          id="cartagena"
+          cx="416.70001"
+          cy="206.39999"
+          rx="15.08113"
+          ry="13.644832" />
+        <ellipse
+          style="fill:#ff0000;fill-rule:evenodd"
+          id="cali"
+          cx="346.72897"
+          cy="684.39923"
+          rx="15.08113"
+          ry="13.644832">
+          <title
+            id="title179">cali</title>
+        </ellipse>
+        <rect
+          style="fill:#0000ff;fill-rule:evenodd"
+          id="mompox"
+          width="26.406019"
+          height="24.374786"
+          x="478.297"
+          y="270.9126">
+          <title
+            id="title304">mompox</title>
+        </rect>
+        <rect
+          style="fill:#0000ff;fill-rule:evenodd"
+          id="zMesto"
+          width="26.406019"
+          height="24.374786"
+          x="520.24078"
+          y="144.9111">
+          <title
+            id="title355">zMesto</title>
+        </rect>
+        <rect
+          style="fill:#0000ff;fill-rule:evenodd"
+          id="tierradentro"
+          width="26.406019"
+          height="24.374786"
+          x="374.797"
+          y="729.01263">
+          <title
+            id="title347">tierradentro</title>
+        </rect>
+        <rect
+          style="fill:#0000ff;fill-rule:evenodd"
+          id="amazon"
+          width="26.406019"
+          height="24.374786"
+          x="704.57153"
+          y="1001.0904">
+          <title
+            id="title459">amazon</title>
+        </rect>
+        <rect
+          style="fill:#0000ff;fill-rule:evenodd"
+          id="andskaCesta"
+          width="26.406019"
+          height="24.374786"
+          x="226.48241"
+          y="806.39923">
+          <title
+            id="title345">andskaCesta</title>
+        </rect>
     </svg>
+    <div id="info">
+
+    </div>
   </div>  
   </main>
   <footer class="container-fluid bg-dark text-white p-5">
@@ -343,7 +460,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-  <script src="../js/historie.js"></script>
+  <script src="geografie.js"></script>
 </body>
 
 </html>
